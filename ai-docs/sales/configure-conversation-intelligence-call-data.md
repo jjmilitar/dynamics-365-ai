@@ -317,6 +317,13 @@ Upload the call recording or transcript to the created call recording repository
 
 > [!div class="nextstepaction"] 
 > [Continue with First-run set up experience](fre-setup-sales-insight-app.md#the-conversation-intelligence-application)
+> 
+## Processing of call data
+
+After the files have been uploaded, the files are deleted by design. This occurs on two scenarios:
+1. The files are processed successfully -- files are deleted from the input container and transferred to "conversation-intelligence-managed" container where they are stored for enabling the playback of the recordings. 
+2. The files failed to process with permanent erro -- files are deleted from the input container and transferred to "conversation-intelligence-managed" container, ProcessingTerminated folder.
+
 
 ## Update configuration of call data
 
